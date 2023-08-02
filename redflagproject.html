@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" href="rfpcss.css" />
+	<!--tells what character set to use -->
+	<meta name="viewport" content="width=device-width"> 
+	<!--viewpoint element - page renders at the width of viewpoint - makes it more mobile friendly. -->
+	<title>The Red Flag Project</title>
+	<!--put CSS within head section-->
+</head>
+<body> <!--On left of main page - intro to the project-->
+	<header>
+		<h1>The Red Flag Project</h1>
+	</header>
+	<nav class="nav-bar">
+		<ul>
+			<li><a href="redflagproject.html">Home</a></li>
+			<li><a href="rfp.about.html">About</a></li>
+			<li><a href="rfp.redflagtest.html">The Red Flag Test</a></li>
+			<li><a href="rfp.resources.html">Resources</a></li>
+			<li><a href="rfp.contact.html">Contact</a></li>
+		</ul>
+		<!--The <a> refers to hyperlinks and the href is telling it what to link to-->
+	</nav>
+<div class="wrapper">
+	<div class="box description">
+		<p>The Red Flag Project was created to educate and promote healthy relationships. At the core of this project is the Red Flag Test. This test was created to validate people's experiences, identify problems that can be worked on, and give people a visual representation of the things they don't deserve to tolerate in relationships.</p>
+		<p>Now obviously all red flags are not treated the same; wearing flip flops in a non-aquatic setting is NOT the same as punching holes in walls. Originally our ranking of red flags was kinda arbitrary & based heavily on our opinions and experiences. To make this as legit as possible, I consulted therapists, relationship experts, and surveyed young adults to validate the ranking process.</p>
+		<p>You may not agree with some of the red flags on this list. Cry about it :/ But actually, this tool is not meant to determine if your partner is abusive. It's meant to identify areas that can be improved or to call attention to behaviors that you don't deserve to tolerate. It's also meant to be fun, so yea there are stupid red flags on here, but they're ranked accordingly and its not that deep.</p>
+	</div>
+	<div class="box demographics" ; id="checkboxes">
+		<label>Your Gender:</label> <br>
+			<input type="checkbox" name="Gender" id="1" onclick="selectThis(this)">Man <br>
+			<input type="checkbox" name="Gender" id="2" onclick="selectThis(this)">Woman <br>
+			<input type="checkbox" name="Gender" id="3" onclick="selectThis(this)">Non-Binary, Genderfluid, other <br> <br>
+		<label>Sexuality:</label> <br>
+			<input type="checkbox" name="Sexuality" onclick="selectThis2(this)">Gay or Lesbian <br>
+			<input type="checkbox" name="Sexuality" onclick="selectThis2(this)">Pansexual or Bisexual <br>
+			<input type="checkbox" name="Sexuality" onclick="selectThis2(this)">Straight <br>
+			<input type="checkbox" name="Sexuality" onclick="selectThis2(this)">Asexual <br>
+			<input type="checkbox" name="Sexuality" onclick="selectThis2(this)">Queer, other <br> <br>
+		<label>Gender of Current or Previous Partner:</label> <br>
+			<input type="checkbox" name="Partner" onclick="selectThis3(this)">Man <br>
+			<input type="checkbox" name="Partner" onclick="selectThis3(this)">Woman <br>
+			<input type="checkbox" name="Partner" onclick="selectThis3(this)">Non-Binary, Genderfluid, other <br>
+			<br>
+		<button class="box button" id="btn" onclick="window.location.href = 'rfp.redflagtest.html'; getDemographics();">Take the Red Flag Test!</button>
+	</div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
+
+
+<!-- use <a href="#" title="Gaslighting is a form a manipulation used to make someone feel crazy for valid concerns">Gaslighting</a> as a way to give definitions without crowding the page - not sure if it will work or if there's an easier way to do it-->

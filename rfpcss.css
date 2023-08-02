@@ -1,0 +1,74 @@
+h1 {
+	display: block;
+	text-align: center;
+	font-size: 8vh;
+	margin-bottom:0;
+}
+nav {
+	font-size: 3vh;
+	text-align: center; 
+	background-color: #EEB8FF;
+	margin-top: 1vh;
+}
+nav ul {
+	list-style: none;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #BF0000;
+}
+body {
+	display: block;
+	background-color: #FAEAFF; 
+	color: #BF0000;
+}
+/* vw = 1% of viewport's width */ 
+/* vh = 1% pf viewport's height 
+add d to it be relative to the dynamic viewport's width & height*/
+.wrapper {
+	display: flex;
+	font-size: 3vh;
+}
+.description {
+	width: 65vw;
+	padding-left: 2vw;
+}
+.demographics {
+	width: 35vw;
+	padding: 2vw;
+}
+/* CSS */
+.button {
+  background-color: #BF0000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px; /* rounded corners*/ 
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  color: #fff;
+  font-size: 14px;
+  padding: 0.5em;
+  overflow: visible;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: #FF6F6F;
+  color: white;
+}
+
+.button:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+
+

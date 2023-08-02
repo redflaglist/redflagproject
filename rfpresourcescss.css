@@ -1,0 +1,27 @@
+h1 {
+	display: block;
+	text-align: center;
+	font-size: 8vh;
+	margin-bottom:0;
+}
+nav {
+	font-size: 3vh;
+	text-align: center; 
+	background-color: #EEB8FF;
+	margin-top: 1vh;
+}
+nav ul {
+	list-style: none;
+	list-stype-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #BF0000;
+}
+body {
+	display: block;
+	background-color: #FAEAFF; 
+	color: #BF0000;
+}
