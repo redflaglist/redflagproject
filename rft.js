@@ -475,6 +475,24 @@ function results() {
      } else {
           text31.style.display = "none";
      }
+          var checkBox69 = document.getElementById("69");
+     var header69= document.getElementById("rfh69");
+     var text69 = document.getElementById("rf69");
+     if (checkBox69.checked ==true) {
+          text69.style.display = "block";
+          header69.style.display= "block";
+     } else {
+          text69.style.display = "none";
+     }
+          var checkBox70 = document.getElementById("70");
+     var header70= document.getElementById("rfh70");
+     var text70 = document.getElementById("rf70");
+     if (checkBox70.checked ==true) {
+          text70.style.display = "block";
+          header70.style.display= "block";
+     } else {
+          text70.style.display = "none";
+     }
 
      /*next column*/
 
