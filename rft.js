@@ -90,6 +90,8 @@ function results() {
      var flag66 = document.getElementById('66');
      var flag67 = document.getElementById('67');
      var flag68 = document.getElementById('68');
+          var flag69 = document.getElementById('69');
+          var flag70 = document.getElementById('70');
 
      if(flag1.checked) { /* says slurs*/
           i += 65;
@@ -279,6 +281,12 @@ function results() {
      }
      if(flag68.checked) { /*only child*/
           i += 1;
+     }
+          if(flag69.checked) { /*fetishization*/
+          i += 29;
+     }
+          if(flag70.checked) { /*makes fun of other cultures food*/
+          i += 18;
      }
      /*Adding Results Header, general results & description*/
 
