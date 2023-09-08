@@ -9,13 +9,15 @@ nav {
 	text-align: center; 
 	background-color: #EEB8FF;
 	margin-top: 1vh;
-	overflow-x: auto;
+	
 }
 nav ul {
 	list-style: none;
+	margin-left: none;
 	list-style-type: none;
 	display: flex;
 	justify-content: space-evenly;
+	overflow-x: scroll;
 }
 nav ul li a {
 	text-decoration: none;
