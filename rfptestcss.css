@@ -19,9 +19,8 @@ nav ul {
 	overflow-x: scroll;
 }
 nav ul li a {
-	overflow: hidden;
 	white-space: nowrap;
-	padding: 1;
+	padding-right: 1;
 	display: inline;
 	text-decoration: none;
 	color: #BF0000;
