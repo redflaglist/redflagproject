@@ -12,16 +12,19 @@ nav {
 }
 nav ul {
 	list-style: none;
-	list-stype-type: none;
+	list-style-type: none;
 	display: flex;
+	text-align: justify;
 	justify-content: space-around;
+	margin-left: 0;
+	overflow-x: scroll;
 }
 nav ul li a {
-	text-decoration: none;
-	color: #BF0000;
 	overflow: hidden;
 	white-space: nowrap;
-	margin: 1vh;
+	padding: 1px;
+	text-decoration: none;
+	color: #BF0000;
 }
 body {
 	display: block;
