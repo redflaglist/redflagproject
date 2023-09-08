@@ -22,7 +22,7 @@ nav ul {
 nav ul li a {
 	overflow: hidden;
 	white-space: nowrap;
-	margin: 1vh;
+	margin: 1;
 	text-decoration: none;
 	color: #BF0000;
 }
