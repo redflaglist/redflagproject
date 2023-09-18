@@ -18,7 +18,7 @@ nav ul {
 	justify-content: space-around;
 	overflow: scroll;
 }
-nav ul li a {
+nav ul li {
 	white-space: nowrap;
 	padding-right: 1;
 	display: inline;
@@ -69,6 +69,7 @@ h3 {
 	font-size: 2vh;
 	margin-bottom: 0;
 	margin-top: 0;
+	text-align: center;
 }
 .directions {
 	font-size: 3.5vh;
@@ -78,23 +79,21 @@ h3 {
 }
 .wrapper {
 	display: flex;
-	margin: 1vw;
-	justify-content: space-between;
 }
 .checkbox1 {
 	list-style: none;
 	list-style-type: none;
-	width: 32%;
+	flex: 1;
 }
 .checkbox2 {
 	list-style: none;
 	list-style-type: none;
-	width: 32%;
+	flex: 1;
 }
 .checkbox3 {
 	list-style: none;
 	list-style-type: none;
-	width: 32%;
+	flex: 1;
 }
 
 .button {
