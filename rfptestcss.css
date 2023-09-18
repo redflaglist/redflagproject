@@ -75,6 +75,9 @@ h3 {
 	margin-top: 0;
 	text-align: center;
 }
+.wrapper {
+	display: flex;
+}
 .checkbox1 ul{
 	list-style: none;
 	list-style-type: none;
@@ -87,9 +90,6 @@ h3 {
 	list-style: none;
 	list-style-type: none;
 	width: 30vw;
-}
-.wrapper {
-	display: flex;
 }
 .button {
   background-color: #BF0000;
