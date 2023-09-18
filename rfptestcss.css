@@ -26,7 +26,6 @@ nav ul li {
 	color: #BF0000;
 }
 body {
-	display: block;
 	background-color: #FAEAFF; 
 	color: #BF0000;
 }
@@ -80,17 +79,17 @@ h3 {
 .wrapper {
 	display: flex;
 }
-.checkbox1 {
+.checkbox1 ul{
 	list-style: none;
 	list-style-type: none;
 	flex: 1;
 }
-.checkbox2 {
+.checkbox2 ul{
 	list-style: none;
 	list-style-type: none;
 	flex: 1;
 }
-.checkbox3 {
+.checkbox3 ul{
 	list-style: none;
 	list-style-type: none;
 	flex: 1;
