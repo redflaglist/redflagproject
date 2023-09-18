@@ -78,21 +78,22 @@ h3 {
 }
 .wrapper {
 	display: flex;
+	justify-content: space-around;
 }
 .checkbox1 ul{
 	list-style: none;
 	list-style-type: none;
-	flex: 1;
+	width: 32vw;
 }
 .checkbox2 ul{
 	list-style: none;
 	list-style-type: none;
-	flex: 1;
+	width: 32vw;
 }
 .checkbox3 ul{
 	list-style: none;
 	list-style-type: none;
-	flex: 1;
+	width: 32vw;
 }
 
 .button {
