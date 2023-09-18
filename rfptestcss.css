@@ -86,6 +86,7 @@ h3 {
 .checkbox3 ul{
 	list-style: none;
 	list-style-type: none;
+	width: 30vw;
 }
 .wrapper {
 	display: flex;
