@@ -77,12 +77,13 @@ h3 {
 }
 .wrapper {
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 }
 .checkbox1 ul{
 	list-style: none;
 	list-style-type: none;
 	margin-left: 0;
+	justify-content: center;
 }
 .checkbox2 ul{
 	list-style: none;
