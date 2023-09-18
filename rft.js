@@ -24,8 +24,9 @@ function results() {
      var text3 = document.getElementById("cb3").style.display="none";
      var text4 = document.getElementById("intro").style.display="none";
      var text5 = document.getElementById("p1").style.display="none";
+          var text6 = document.getElementById("button").style.display="none";
 
-     var text5 = document.getElementById("results").style.display="Block";
+     var text7 = document.getElementById("results").style.display="Block";
      i = 0;
      var flag1 = document.getElementById('1');
      var flag2 = document.getElementById('2');
