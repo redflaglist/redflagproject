@@ -77,8 +77,7 @@ h3 {
 	text-align: center;
 }
 .wrapper {
-	display: flex;
-	margin-right: 3vw;
+	margin: 1vw;
 }
 .checkbox1 ul {
 	list-style: none;
@@ -92,7 +91,6 @@ h3 {
 .checkbox3 ul {
 	list-style: none;
 	list-style-type: none;
-	width: 28vw;
 }
 
 .button {
