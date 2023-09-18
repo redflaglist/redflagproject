@@ -78,8 +78,7 @@ h3 {
 }
 .wrapper {
 	display: flex;
-	margin: 0;
-	padding: 0;
+	margin-right: 3vw;
 }
 .checkbox1 ul {
 	list-style: none;
