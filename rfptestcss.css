@@ -89,10 +89,14 @@ h3 {
 .checkbox2 ul{
 	list-style: none;
 	list-style-type: none;
+	margin-left: 1vw;
+	padding-left: 1vw;
 }
 .checkbox3 ul{
 	list-style: none;
 	list-style-type: none;
+	margin-left: 1vw;
+	padding-left: 1vw;
 }
 .button {
   background-color: #BF0000;
