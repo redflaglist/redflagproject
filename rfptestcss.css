@@ -89,7 +89,6 @@ h3 {
 }
 .wrapper {
 	display: flex;
-	text-align: center;
 }
 .button {
   background-color: #BF0000;
