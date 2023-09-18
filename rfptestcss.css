@@ -83,7 +83,8 @@ h3 {
 	list-style: none;
 	list-style-type: none;
 	margin-left: 0;
-	justify-content: center;
+	padding-left: 0;
+	justify-content: left;
 }
 .checkbox2 ul{
 	list-style: none;
