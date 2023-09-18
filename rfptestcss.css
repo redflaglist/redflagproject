@@ -16,7 +16,7 @@ nav ul {
 	display: flex;
 	text-align: justify;
 	justify-content: space-around;
-	overflow-x: scroll;
+	overflow: scroll;
 }
 nav ul li a {
 	white-space: nowrap;
@@ -79,6 +79,7 @@ h3 {
 .wrapper {
 	display: flex;
 	margin: 0;
+	padding: 0;
 }
 .checkbox1 ul {
 	list-style: none;
