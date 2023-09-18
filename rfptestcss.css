@@ -77,26 +77,24 @@ h3 {
 }
 .wrapper {
 	display: flex;
-	justify-content: left;
 }
 .checkbox1 ul{
 	list-style: none;
 	list-style-type: none;
 	margin-left: 0;
 	padding-left: 0;
-	justify-content: left;
 }
 .checkbox2 ul{
 	list-style: none;
 	list-style-type: none;
-	margin-left: 1vw;
-	padding-left: 1vw;
+	margin-left: 0;
+	padding-left: 0;
 }
 .checkbox3 ul{
 	list-style: none;
 	list-style-type: none;
-	margin-left: 1vw;
-	padding-left: 1vw;
+	margin-left: 0;
+	padding-left: 0;
 }
 .button {
   background-color: #BF0000;
