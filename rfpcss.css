@@ -6,20 +6,23 @@ h1 {
 }
 nav {
 	font-size: 3vh;
-	text-align: center; 
+	text-align: justify; 
 	background-color: #EEB8FF;
 	margin-top: 1vh;
-	
 }
 nav ul {
 	list-style: none;
-	margin-left: none;
 	list-style-type: none;
 	display: flex;
-	justify-content: space-evenly;
-	overflow-x: scroll;
+	text-align: justify;
+	justify-content: space-around;
+	overflow: scroll;
+	padding-left: 0;
+	margin-left: 0;
 }
-nav ul li a {
+nav ul li {
+	white-space: nowrap;
+	display: inline;
 	text-decoration: none;
 	color: #BF0000;
 }
