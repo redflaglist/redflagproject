@@ -92,7 +92,7 @@ h3 {
 	list-style-type: none;
 	margin-left: 0;
 	padding-left: 2px;
-	border-right: 1px solid ;
+	
 }
 .checkbox3 ul{
 	list-style: none;
@@ -100,6 +100,7 @@ h3 {
 	margin-left: 0;
 	padding-left: 2px;
 	width: 32vw;
+	border-left: 1px solid ;
 }
 .button {
   background-color: #BF0000;
