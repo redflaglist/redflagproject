@@ -6,7 +6,7 @@ h1 {
 }
 nav {
 	font-size: 3vh;
-	text-align: center; 
+	text-align: justify; 
 	background-color: #EEB8FF;
 	margin-top: 1vh;
 }
@@ -16,13 +16,13 @@ nav ul {
 	display: flex;
 	text-align: justify;
 	justify-content: space-around;
+	overflow: scroll;
+	padding-left: 0;
 	margin-left: 0;
-	overflow-x: scroll;
 }
-nav ul li a {
-	overflow: hidden;
+nav ul li {
 	white-space: nowrap;
-	padding: 1px;
+	display: inline;
 	text-decoration: none;
 	color: #BF0000;
 }
