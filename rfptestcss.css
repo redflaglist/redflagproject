@@ -84,14 +84,14 @@ h3 {
 	list-style: none;
 	list-style-type: none;
 	margin-left: 0;
-	padding-left: 0;
+	padding: 0;
 	border-right: 1px solid ;
 }
 .checkbox2 ul{
 	list-style: none;
 	list-style-type: none;
 	margin-left: 1vw;
-	padding-left: 0;
+	padding: 0;
 	border-right: 1px solid
 	
 }
@@ -99,8 +99,8 @@ h3 {
 	list-style: none;
 	list-style-type: none;
 	margin-left: 1vw;
-	width: 33vw;
-	padding-left: 0;
+	width: 32vw;
+	padding: 0;
 }
 .button {
   background-color: #BF0000;
