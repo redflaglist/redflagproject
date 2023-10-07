@@ -79,6 +79,7 @@ h3 {
 }
 .wrapper {
 	display: flex;
+	margin: 3vw;
 }
 .checkbox1 ul{
 	list-style: none;
@@ -100,6 +101,7 @@ h3 {
 	margin-left: 0;
 	padding-left: 2px;
 	border-left: 1px solid ;
+	width: 35vw;
 }
 .button {
   background-color: #BF0000;
