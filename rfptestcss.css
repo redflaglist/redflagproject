@@ -79,7 +79,7 @@ h3 {
 }
 .wrapper {
 	display: flex;
-	margin: 1vw;
+	margin: 0.3vw;
 }
 .checkbox1 ul{
 	list-style: none;
@@ -91,13 +91,13 @@ h3 {
 .checkbox2 ul{
 	list-style: none;
 	list-style-type: none;
-	margin-left: 1vw;
+	margin-left: 0.3vw;
 	
 }
 .checkbox3 ul{
 	list-style: none;
 	list-style-type: none;
-	margin-left: 1vw;
+	margin-left: 0.3vw;
 	border-left: 1px solid ;
 	width: 33vw;
 }
