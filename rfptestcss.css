@@ -93,13 +93,13 @@ h3 {
 	list-style-type: none;
 	margin-left: 1vw;
 	padding-left: 0;
+	border-right: 1px solid
 	
 }
 .checkbox3 ul{
 	list-style: none;
 	list-style-type: none;
 	margin-left: 1vw;
-	border-left: 1px solid ;
 	width: 33vw;
 	padding-left: 0;
 }
