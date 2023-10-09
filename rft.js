@@ -95,16 +95,16 @@ function results() {
           var flag70 = document.getElementById('70');
 
      if(flag1.checked) { /* says slurs*/
-          i += 65;
+          i += 51;
      }
      if(flag2.checked) { /*doesn't like your friends*/
           i += 18;
      }
      if(flag3.checked) { /*whines when you don't have sex with them*/
-          i += 64;
+          i += 51;
      }
      if(flag4.checked) { /*pressures you to have sex wo protection*/
-          i += 64;
+          i += 51;
      }
      if(flag5.checked) { /*addicted to drugs or alc*/
           i += 23;
@@ -116,10 +116,10 @@ function results() {
           i += 18;
      }
      if(flag8.checked) { /*past cheater*/
-          i += 20;
+          i += 30;
      }
      if(flag9.checked) { /*gaslighting*/
-          i += 23;
+          i += 27;
      }
      if(flag10.checked) { /*friends hate them*/
           i += 30;
@@ -131,16 +131,16 @@ function results() {
           i += 26;
      }
      if(flag13.checked) { /*you don't want to be like them*/
-          i += 28;
+          i += 26;
      }
      if(flag14.checked) { /*punches walls*/
-          i += 27;
+          i += 35;
      }
      if(flag15.checked) { /*messy/don't clean*/
           i += 21;
      }
      if(flag16.checked) { /*rude to waiters*/
-          i += 29;
+          i += 20;
      }
      if(flag17.checked) { /*boring*/
           i += 12;
@@ -215,22 +215,22 @@ function results() {
           i += 7;
      }
      if(flag43.checked) { /*neg comments on appearance*/
-          i += 23;
+          i += 25;
      }
      if(flag44.checked) {  /*doesnt listen to women artists*/
           i += 9;
      }
      if(flag47.checked) { /*flip flops*/
-          i += 7;
+          i += 3;
      }
      if(flag48.checked) { /*lifelong goals*/
           i += 18;
      }
      if(flag49.checked) { /*wont introduce to their friends*/
-          i += 20;
+          i += 25;
      }
      if(flag50.checked) { /*peaked in hs*/
-          i += 8;
+          i += 6;
      }
      if(flag51.checked) { /*3:1 shampoo*/
           i += 5;
