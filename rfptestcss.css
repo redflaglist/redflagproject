@@ -64,7 +64,9 @@ h3 {
 	border: 1px;
 	border-style: solid;
 }
-
+.disclaimer {
+	font-size: 2vh;
+}
 .description {
 	font-size: 2vh;
 	margin-bottom: 0;
