@@ -260,10 +260,10 @@ function results() {
           i += 11;
      }
      if(flag60.checked) { /*only listens to EDM*/
-          i += 7;
+          i += 5;
      }
      if(flag61.checked) { /*no drip*/
-          i += 7;
+          i += 4;
      }
      if(flag62.checked) { /*only wants to be little spoon*/
           i += 5;
