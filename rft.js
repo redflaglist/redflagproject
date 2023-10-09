@@ -116,10 +116,10 @@ function results() {
           i += 18;
      }
      if(flag8.checked) { /*past cheater*/
-          i += 30;
+          i += 20;
      }
      if(flag9.checked) { /*gaslighting*/
-          i += 18;
+          i += 23;
      }
      if(flag10.checked) { /*friends hate them*/
           i += 30;
@@ -164,7 +164,7 @@ function results() {
           i += 21;
      }
      if(flag25.checked) { /*friend group has bad vibes*/
-          i += 25;
+          i += 15;
      }
      if(flag27.checked) { /*terrible taste in food*/
           i += 8;
@@ -224,7 +224,7 @@ function results() {
           i += 7;
      }
      if(flag48.checked) { /*lifelong goals*/
-          i += 28;
+          i += 18;
      }
      if(flag49.checked) { /*wont introduce to their friends*/
           i += 20;
